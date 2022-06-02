@@ -1,1 +1,1 @@
-​
+NOTE: Change lengths of the answer matrix as the length changes in transpose of a rectangular matrix
