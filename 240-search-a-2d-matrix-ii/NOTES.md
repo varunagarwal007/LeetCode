@@ -1,0 +1,1 @@
+Using last element as comparison (like mid in binary search) to search for target.
