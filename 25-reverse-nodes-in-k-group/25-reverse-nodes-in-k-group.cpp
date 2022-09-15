@@ -25,12 +25,12 @@ public:
         ListNode* prev = NULL;
         ListNode* curr = head;
         ListNode* frwd = curr -> next;
-            while(curr != temp && count<k) {
+            while(curr != temp ) {
             frwd = curr -> next;
             curr -> next = prev;
             prev = curr;
             curr = frwd;
-          count++;
+          //count++;
         }
         
         if(frwd != NULL) {
